@@ -19,3 +19,11 @@ model User {
   email     String   @unique
   createdAt DateTime @default(now())
 }
+
+model Klien {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  phone     String?
+  createdAt DateTime @default(now())
+}

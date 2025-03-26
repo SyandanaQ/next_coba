@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [users, setUsers] = useState([]);
@@ -120,6 +121,7 @@ export default function Home() {
           </button>
         )}
       </form>
+      <Link href="/klien">Lihat Data Klien</Link>
     </div>
   );
 }
