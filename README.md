@@ -34,3 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Start
+1️⃣ Run MySQL (If Using XAMPP)
+2️⃣ Directly Run Next.js → npm run dev
+3️⃣ If there is an error related to Prisma, run npx prisma generate
+
+👉 Conclusion: Usually there is no need to npx prisma generate every time you open a project, unless there is a schema change or an error related to Prisma. 🚀
